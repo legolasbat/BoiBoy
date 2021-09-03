@@ -99,9 +99,6 @@ int CPUSharp::Push(Register r) {
 int CPUSharp::LDHLSP() {
 	int8_t n = (int8_t)Read(PC.value++);
 
-	//uint16_t prevVal = SP.value;
-	//uint8_t prevLow = SP.low;
-
 	HL.value = SP.value + n;
 
 	if (SP.low > HL.low) {
@@ -215,7 +212,6 @@ int CPUSharp::Ret() {
 	PC.value = add;
 	ret = false;
 	if (interrupt) {
-		//IME = true;
 		interrupt = false;
 	}
 	return 4;
@@ -259,7 +255,7 @@ int CPUSharp::Rst() {
 }
 
 int CPUSharp::DI() {
-	IME = 0;
+	IME = false;
 	IMESch = false;
 	return 1;
 }
@@ -322,7 +318,7 @@ int CPUSharp::DAA() {
 }
 
 int CPUSharp::CPL() {
-	AF.high = ~AF.high;
+	AF.high ^= 0xFF;
 	AF.low |= SFlag;
 	AF.low |= HFlag;
 	return 1;
@@ -631,7 +627,7 @@ int CPUSharp::INCHL() {
 
 	Write(HL.value, val);
 
-	return 2;
+	return 3;
 }
 
 int CPUSharp::DEC(Register& reg, bool isHigh) {
@@ -688,7 +684,7 @@ int CPUSharp::DECHL() {
 
 	Write(HL.value, val);
 
-	return 2;
+	return 3;
 }
 #pragma endregion
 

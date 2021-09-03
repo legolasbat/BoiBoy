@@ -2,10 +2,6 @@
 
 #include "Memory.h"
 
-bool debug = false;
-bool debugOp = false;
-bool debugMem = false;
-
 FILE *LOG;
 int lines = 0;
 
@@ -17,9 +13,10 @@ CPUSharp::CPUSharp() {
 	DE.value = 0x00D8;
 	HL.value = 0x014D;
 	SP.value = 0xFFFE;
+	//PC.value = 0x00;	// For Boot Rom
 	PC.value = 0x100;
 
-	//if (freopen_s(&LOG, "02-interruptsLOG.txt", "a", stdout) == NULL) {
+	//if (freopen_s(&LOG, "SuperMarioLOG.txt", "a", stdout) == NULL) {
 	//	return;
 	//}
 }
@@ -60,26 +57,26 @@ int CPUSharp::Clock() {
 			interrupt = false;
 		}
 
-		opcode = Read(PC.value++);
-
-		Debug();
-
-		if (stopped) {
-			stopped = false;
-		}
-
-		opCycles = Execute();
-
-		if (IMESch && opcode != 0xFB) {
-			cycles++;
-			IMESch = false;
-			IME = true;
-		}
-
-		cycles += opCycles;
-
 		if (halted)
 			cycles++;
+		else {
+			opcode = Read(PC.value++);
+
+			Debug();
+
+			if (stopped) {
+				stopped = false;
+			}
+
+			opCycles = Execute();
+
+			if (IMESch && opcode != 0xFB) {
+				IMESch = false;
+				IME = true;
+			}
+
+			cycles += opCycles;
+		}		
 	}
 	else {
 		opCycles = 0;
@@ -103,20 +100,24 @@ uint8_t CPUSharp::Read(uint16_t add) {
 		std::cout << "Reading in " << std::hex << (int)add << std::endl;
 
 	uint8_t value = memory->Read(add);
+
 	return value;
 }
 
-void CPUSharp::TimerInt() {
+void CPUSharp::Interrupt(uint16_t add) {
+	if (IME && halted)
+		halted = false;
+
 	interrupt = true;
 	Write(--SP.value, PC.high);
 	Write(--SP.value, PC.low);
-	PC.value = 0x0050;
+	PC.value = add;
 	IME = false;
 	cycles += 5;
 }
 
 void CPUSharp::Debug() {
-	if (debug && !ret) {
+	if (debug) {
 		std::cout << std::setfill('0');
 		std::cout << "A: " << std::hex << std::setw(2) << std::uppercase << (int)(AF.high);
 		std::cout << " F: " << std::hex << std::setw(2) << std::uppercase << (int)(AF.low);
@@ -132,7 +133,17 @@ void CPUSharp::Debug() {
 		std::cout << " " << std::hex << std::setw(2) << std::uppercase << (int)(Read(PC.value));
 		std::cout << " " << std::hex << std::setw(2) << std::uppercase << (int)(Read(PC.value + 1));
 		std::cout << " " << std::hex << std::setw(2) << std::uppercase << (int)(Read(PC.value + 2)) << ")" << std::endl;
-		lines++;
+		std::cout << "LCDC: " << std::hex << std::setw(2) << std::uppercase << (int)(memory->ppu.LCDC);
+		std::cout << " STAT: " << std::hex << std::setw(2) << std::uppercase << (int)(memory->ppu.STAT);
+		std::cout << " LY: " << std::hex << std::setw(2) << std::uppercase << (int)(memory->ppu.LY);
+		std::cout << " LYC: " << std::hex << std::setw(2) << std::uppercase << (int)(memory->ppu.LYC);
+		std::cout << " CNT: " << std::hex << std::setw(2) << std::uppercase << (int)(memory->ppu.cnt);
+		std::cout << " SCY: " << std::hex << std::setw(2) << std::uppercase << (int)(memory->ppu.SCY);
+		std::cout << " SCX: " << std::hex << std::setw(2) << std::uppercase << (int)(memory->ppu.SCX);
+		std::cout << " IE: " << std::hex << std::setw(2) << std::uppercase << (int)(memory->IEReg);
+		std::cout << " IF: " << std::hex << std::setw(2) << std::uppercase << (int)(memory->IFReg) << std::endl;
+		//lines++;
+		//std::cout << lines << std::endl;
 		if (lines >= 161503) {
 			fclose(stdout);
 			std::cout << "Finished" << std::endl;

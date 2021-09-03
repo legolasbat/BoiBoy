@@ -1,0 +1,183 @@
+After VBlank: 0
+STAT Interrupt
+Before STAT: 0
+Before VBlank in PPU: 0
+V Blank Interrupt
+Before VBlank: 0
+After VBlank: 0
+STAT Interrupt
+Before STAT: 0
+Before VBlank in PPU: 1
+V Blank Interrupt
+Before VBlank: 1
+After VBlank: 0
+STAT Interrupt
+Before STAT: 0
+Before VBlank in PPU: 2
+V Blank Interrupt
+Before VBlank: 2
+After VBlank: 2
+STAT Interrupt
+Before STAT: 0
+Before VBlank in PPU: 3
+V Blank Interrupt
+Before VBlank: 3
+After VBlank: 0
+STAT Interrupt
+Before STAT: 0
+Before VBlank in PPU: 4
+V Blank Interrupt
+Before VBlank: 4
+After VBlank: 0
+STAT Interrupt
+Before STAT: 0
+Before VBlank in PPU: 5
+V Blank Interrupt
+Before VBlank: 5
+After VBlank: 0
+STAT Interrupt
+Before STAT: 0
+Before VBlank in PPU: 6
+V Blank Interrupt
+Before VBlank: 6
+After VBlank: 0
+STAT Interrupt
+Before STAT: 0
+Before VBlank in PPU: 7
+V Blank Interrupt
+Before VBlank: 7
+After VBlank: 0
+STAT Interrupt
+Before STAT: 0
+Before VBlank in PPU: 8
+V Blank Interrupt
+Before VBlank: 8
+After VBlank: 8
+STAT Interrupt
+Before STAT: 0
+Before VBlank in PPU: 9
+V Blank Interrupt
+Before VBlank: 9
+After VBlank: 0
+STAT Interrupt
+Before STAT: 0
+Before VBlank in PPU: 10
+V Blank Interrupt
+Before VBlank: 10
+After VBlank: 0
+STAT Interrupt
+Before STAT: 0
+Before VBlank in PPU: 11
+V Blank Interrupt
+Before VBlank: 11
+After VBlank: 0
+STAT Interrupt
+Before STAT: 0
+Before VBlank in PPU: 12
+V Blank Interrupt
+Before VBlank: 12
+After VBlank: 0
+STAT Interrupt
+Before STAT: 0
+Before VBlank in PPU: 13
+V Blank Interrupt
+Before VBlank: 13
+After VBlank: 0
+STAT Interrupt
+Before STAT: 0
+Before VBlank in PPU: 14
+V Blank Interrupt
+Before VBlank: 14
+After VBlank: 0
+STAT Interrupt
+Before STAT: 0
+Before VBlank in PPU: 15
+V Blank Interrupt
+Before VBlank: 15
+After VBlank: 0
+STAT Interrupt
+Before STAT: 0
+Before VBlank in PPU: 16
+V Blank Interrupt
+Before VBlank: 16
+After VBlank: 16
+STAT Interrupt
+Before STAT: 0
+Before VBlank in PPU: 17
+V Blank Interrupt
+Before VBlank: 17
+After VBlank: 0
+STAT Interrupt
+Before STAT: 0
+Before VBlank in PPU: 18
+V Blank Interrupt
+Before VBlank: 18
+After VBlank: 0
+STAT Interrupt
+Before STAT: 0
+Before VBlank in PPU: 19
+V Blank Interrupt
+Before VBlank: 19
+After VBlank: 0
+STAT Interrupt
+Before STAT: 0
+Before VBlank in PPU: 20
+V Blank Interrupt
+Before VBlank: 20
+After VBlank: 0
+STAT Interrupt
+Before STAT: 0
+Before VBlank in PPU: 21
+V Blank Interrupt
+Before VBlank: 21
+After VBlank: 0
+STAT Interrupt
+Before STAT: 0
+Before VBlank in PPU: 22
+V Blank Interrupt
+Before VBlank: 22
+After VBlank: 0
+STAT Interrupt
+Before STAT: 0
+Before VBlank in PPU: 23
+V Blank Interrupt
+Before VBlank: 23
+After VBlank: 0
+STAT Interrupt
+Before STAT: 0
+Before VBlank in PPU: 24
+V Blank Interrupt
+Before VBlank: 24
+After VBlank: 24
+STAT Interrupt
+Before STAT: 0
+Before VBlank in PPU: 25
+V Blank Interrupt
+Before VBlank: 25
+After VBlank: 0
+STAT Interrupt
+Before STAT: 0
+Before VBlank in PPU: 26
+V Blank Interrupt
+Before VBlank: 26
+After VBlank: 0
+STAT Interrupt
+Before STAT: 0
+Before VBlank in PPU: 27
+V Blank Interrupt
+Before VBlank: 27
+After VBlank: 0
+STAT Interrupt
+Before STAT: 0
+Before VBlank in PPU: 28
+V Blank Interrupt
+Before VBlank: 28
+After VBlank: 0
+STAT Interrupt
+Before STAT: 0
+Before VBlank in PPU: 29
+V Blank Interrupt
+Before VBlank: 29
+After VBlank: 0
+STAT Interrupt
+Before STAT: 0

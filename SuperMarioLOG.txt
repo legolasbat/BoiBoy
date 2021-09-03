@@ -1,0 +1,2994 @@
+PC: 405 Writting in ff43: 0
+PC: 197 Writting in ffa4: 0
+PC: 1ea Writting in ffa4: 0
+PC: 328 Writting in ffa4: 0
+PC: 2246 Reading in ffa4: 0
+PC: 2246 Reading in ffa4: 0
+PC: 2246 Reading in ffa4: 0
+PC: 2246 Reading in ffa4: 0
+PC: 2246 Reading in ffa4: 0
+PC: 2246 Reading in ffa4: 0
+PC: 2246 Reading in ffa4: 0
+PC: 2246 Reading in ffa4: 0
+PC: 2246 Reading in ffa4: 0
+PC: 2246 Reading in ffa4: 0
+PC: 2246 Reading in ffa4: 0
+PC: 2246 Reading in ffa4: 0
+PC: 2246 Reading in ffa4: 0
+PC: 2246 Reading in ffa4: 0
+PC: 2246 Reading in ffa4: 0
+PC: 2246 Reading in ffa4: 0
+PC: 2246 Reading in ffa4: 0
+PC: 2246 Reading in ffa4: 0
+PC: 2246 Reading in ffa4: 0
+PC: 2246 Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 2246 Reading in ffa4: 0
+PC: 2246 Reading in ffa4: 0
+PC: 2246 Reading in ffa4: 0
+PC: 2246 Reading in ffa4: 0
+PC: 2246 Reading in ffa4: 0
+PC: 2246 Reading in ffa4: 0
+PC: 2246 Reading in ffa4: 0
+PC: 2246 Reading in ffa4: 0
+PC: 2246 Reading in ffa4: 0
+PC: 2246 Reading in ffa4: 0
+PC: 2246 Reading in ffa4: 0
+PC: 2246 Reading in ffa4: 0
+PC: 2246 Reading in ffa4: 0
+PC: 2246 Reading in ffa4: 0
+PC: 2246 Reading in ffa4: 0
+PC: 2246 Reading in ffa4: 0
+PC: 2246 Reading in ffa4: 0
+PC: 2246 Reading in ffa4: 0
+PC: 2246 Reading in ffa4: 0
+PC: 2246 Reading in ffa4: 0
+PC: 2246 Reading in ffa4: 0
+PC: 2246 Reading in ffa4: 0
+PC: 2246 Reading in ffa4: 0
+PC: 2246 Reading in ffa4: 0
+PC: 2246 Reading in ffa4: 0
+PC: 2246 Reading in ffa4: 0
+PC: 2246 Reading in ffa4: 0
+PC: 761 Writting in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 199c Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 199c Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 199c Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 199c Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 199c Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 199c Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 199c Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 199c Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 199c Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 199c Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 199c Reading in ffa4: 0
+PC: 1958 Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+PC: 4b46 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 199c Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+PC: 4b46 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 199c Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+PC: 4b46 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 199c Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+PC: 4b46 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 199c Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+PC: 4b46 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+PC: 4b46 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+PC: 4b46 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+PC: 4b46 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+PC: 4b46 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+PC: 4b46 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+PC: 4b46 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+PC: 4b46 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 1add Reading in ffa4: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 1add Reading in ffa4: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 1add Reading in ffa4: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 1add Reading in ffa4: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 1add Reading in ffa4: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 1add Reading in ffa4: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 1add Reading in ffa4: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 1add Reading in ffa4: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 1add Reading in ffa4: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 1add Reading in ffa4: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 1add Reading in ffa4: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 1add Reading in ffa4: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 1add Reading in ffa4: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 1add Reading in ffa4: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 1add Reading in ffa4: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 1add Reading in ffa4: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 1add Reading in ffa4: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 1add Reading in ffa4: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 1add Reading in ffa4: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 1add Reading in ffa4: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 1add Reading in ffa4: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 1add Reading in ffa4: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 1add Reading in ffa4: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 1add Reading in ffa4: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 1add Reading in ffa4: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 1add Reading in ffa4: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 1add Reading in ffa4: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 1add Reading in ffa4: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 1add Reading in ffa4: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 1add Reading in ffa4: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 1add Reading in ffa4: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 1add Reading in ffa4: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 1add Reading in ffa4: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 1add Reading in ffa4: 0
+PC: 17cd Reading in ffa4: 0
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 0
+PC: 4b22 Reading in ffa4: 0
+STAT Interrupt
+PC: a5 Reading in ffa4: 0
+PC: a7 Writting in ff43: 0
+PC: 1add Reading in ffa4: 0
+PC: 1e06 Reading in ffa4: 0
+PC: 1e07 Writting in ffa4: 1
+PC: 17cd Reading in ffa4: 1
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 1
+PC: 4b22 Reading in ffa4: 1
+STAT Interrupt
+PC: a5 Reading in ffa4: 1
+PC: a7 Writting in ff43: 1
+PC: 1add Reading in ffa4: 1
+PC: 1e06 Reading in ffa4: 1
+PC: 1e07 Writting in ffa4: 2
+PC: 17cd Reading in ffa4: 2
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 219f Reading in ffa4: 2
+PC: 2246 Reading in ffa4: 2
+PC: 4b22 Reading in ffa4: 2
+STAT Interrupt
+PC: a5 Reading in ffa4: 2
+PC: a7 Writting in ff43: 2
+PC: 1add Reading in ffa4: 2
+PC: 1e06 Reading in ffa4: 2
+PC: 1e07 Writting in ffa4: 3
+PC: 17cd Reading in ffa4: 3
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 3
+PC: 4b22 Reading in ffa4: 3
+STAT Interrupt
+PC: a5 Reading in ffa4: 3
+PC: a7 Writting in ff43: 3
+PC: 1add Reading in ffa4: 3
+PC: 1e06 Reading in ffa4: 3
+PC: 1e07 Writting in ffa4: 4
+PC: 17cd Reading in ffa4: 4
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 219f Reading in ffa4: 4
+PC: 4b22 Reading in ffa4: 4
+STAT Interrupt
+PC: a5 Reading in ffa4: 4
+PC: a7 Writting in ff43: 4
+PC: 1add Reading in ffa4: 4
+PC: 1e06 Reading in ffa4: 4
+PC: 1e07 Writting in ffa4: 5
+PC: 17cd Reading in ffa4: 5
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 219f Reading in ffa4: 5
+PC: 4b22 Reading in ffa4: 5
+STAT Interrupt
+PC: a5 Reading in ffa4: 5
+PC: a7 Writting in ff43: 5
+PC: 1add Reading in ffa4: 5
+PC: 1e06 Reading in ffa4: 5
+PC: 1e07 Writting in ffa4: 6
+PC: 17cd Reading in ffa4: 6
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 219f Reading in ffa4: 6
+PC: 4b22 Reading in ffa4: 6
+STAT Interrupt
+PC: a5 Reading in ffa4: 6
+PC: a7 Writting in ff43: 6
+PC: 1add Reading in ffa4: 6
+PC: 1e06 Reading in ffa4: 6
+PC: 1e07 Writting in ffa4: 7
+PC: 17cd Reading in ffa4: 7
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 219f Reading in ffa4: 7
+PC: 4b22 Reading in ffa4: 7
+STAT Interrupt
+PC: a5 Reading in ffa4: 7
+PC: a7 Writting in ff43: 7
+PC: 1add Reading in ffa4: 7
+PC: 1e06 Reading in ffa4: 7
+PC: 1e07 Writting in ffa4: 8
+PC: 17cd Reading in ffa4: 8
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 219f Reading in ffa4: 8
+PC: 2246 Reading in ffa4: 8
+PC: 4b22 Reading in ffa4: 8
+STAT Interrupt
+PC: a5 Reading in ffa4: 8
+PC: a7 Writting in ff43: 8
+PC: 2bc0 Reading in ffa4: 8
+PC: 1add Reading in ffa4: 8
+PC: 1e06 Reading in ffa4: 8
+PC: 1e07 Writting in ffa4: 9
+PC: 17cd Reading in ffa4: 9
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 9
+PC: 4b22 Reading in ffa4: 9
+STAT Interrupt
+PC: a5 Reading in ffa4: 9
+PC: a7 Writting in ff43: 9
+PC: 2bc0 Reading in ffa4: 9
+PC: 1add Reading in ffa4: 9
+PC: 1e06 Reading in ffa4: 9
+PC: 1e07 Writting in ffa4: a
+PC: 17cd Reading in ffa4: a
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 219f Reading in ffa4: a
+PC: 4b22 Reading in ffa4: a
+PC: 2bc0 Reading in ffa4: a
+PC: 2b89 Reading in ffa4: a
+STAT Interrupt
+PC: a5 Reading in ffa4: a
+PC: a7 Writting in ff43: a
+PC: 1add Reading in ffa4: a
+PC: 1e06 Reading in ffa4: a
+PC: 1e07 Writting in ffa4: b
+PC: 17cd Reading in ffa4: b
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 219f Reading in ffa4: b
+PC: 4b22 Reading in ffa4: b
+PC: 2bc0 Reading in ffa4: b
+STAT Interrupt
+PC: a5 Reading in ffa4: b
+PC: a7 Writting in ff43: b
+PC: 1add Reading in ffa4: b
+PC: 1e06 Reading in ffa4: b
+PC: 1e07 Writting in ffa4: c
+PC: 17cd Reading in ffa4: c
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 219f Reading in ffa4: c
+PC: 4b22 Reading in ffa4: c
+PC: 2bc0 Reading in ffa4: c
+STAT Interrupt
+PC: a5 Reading in ffa4: c
+PC: a7 Writting in ff43: c
+PC: 1add Reading in ffa4: c
+PC: 1e06 Reading in ffa4: c
+PC: 1e07 Writting in ffa4: d
+PC: 17cd Reading in ffa4: d
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 219f Reading in ffa4: d
+PC: 4b22 Reading in ffa4: d
+PC: 2bc0 Reading in ffa4: d
+PC: 2b89 Reading in ffa4: d
+STAT Interrupt
+PC: a5 Reading in ffa4: d
+PC: a7 Writting in ff43: d
+PC: 1add Reading in ffa4: d
+PC: 1e06 Reading in ffa4: d
+PC: 1e07 Writting in ffa4: e
+PC: 17cd Reading in ffa4: e
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 219f Reading in ffa4: e
+PC: 4b22 Reading in ffa4: e
+PC: 2bc0 Reading in ffa4: e
+STAT Interrupt
+PC: a5 Reading in ffa4: e
+PC: a7 Writting in ff43: e
+PC: 1add Reading in ffa4: e
+PC: 1e06 Reading in ffa4: e
+PC: 1e07 Writting in ffa4: f
+PC: 17cd Reading in ffa4: f
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 219f Reading in ffa4: f
+PC: 4b22 Reading in ffa4: f
+PC: 2bc0 Reading in ffa4: f
+STAT Interrupt
+PC: a5 Reading in ffa4: f
+PC: a7 Writting in ff43: f
+PC: 1add Reading in ffa4: f
+PC: 1e06 Reading in ffa4: f
+PC: 1e07 Writting in ffa4: 10
+PC: 17cd Reading in ffa4: 10
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 219f Reading in ffa4: 10
+PC: 2246 Reading in ffa4: 10
+PC: 4b22 Reading in ffa4: 10
+PC: 2bc0 Reading in ffa4: 10
+STAT Interrupt
+PC: a5 Reading in ffa4: 10
+PC: a7 Writting in ff43: 10
+PC: 2b89 Reading in ffa4: 10
+PC: 1add Reading in ffa4: 10
+PC: 1e06 Reading in ffa4: 10
+PC: 1e07 Writting in ffa4: 11
+PC: 17cd Reading in ffa4: 11
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 218e Reading in ffa4: 11
+PC: 4b22 Reading in ffa4: 11
+STAT Interrupt
+PC: a5 Reading in ffa4: 11
+PC: a7 Writting in ff43: 11
+PC: 2bc0 Reading in ffa4: 11
+PC: 1add Reading in ffa4: 11
+PC: 1e06 Reading in ffa4: 11
+PC: 1e07 Writting in ffa4: 12
+PC: 17cd Reading in ffa4: 12
+V Blank Interrupt
+PC: 8b Writting in ff43: 0
+PC: 219f Reading in ffa4: 12
+PC: 4b22 Reading in ffa4: 12
+PC: 2bc0 Reading in ffa4: 12
+STAT Interrupt
+PC: a5 Reading in ffa4: 12
+PC: a7 Writting in ff43: 12
+PC: 1add Reading in ffa4: 12
+PC: 1e06 Reading in ffa4: 12
+PC: 1e07 Writting in ffa4: 13
+PC: 17cd Reading in ffa4: 13
+V Blank Interrupt
+PC: 8b Writting in ff43: 0

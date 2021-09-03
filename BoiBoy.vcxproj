@@ -145,6 +145,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\PPU.cpp" />
     <ClCompile Include="src\Cartridge.cpp" />
     <ClCompile Include="src\Memory.cpp" />
     <ClCompile Include="src\CPUSharp.cpp" />
@@ -152,6 +153,8 @@
     <ClCompile Include="src\Opcodes.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\BootRom.h" />
+    <ClInclude Include="src\PPU.h" />
     <ClInclude Include="src\Cartridge.h" />
     <ClInclude Include="src\Memory.h" />
     <ClInclude Include="src\CPUSharp.h" />

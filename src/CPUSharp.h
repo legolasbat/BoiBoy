@@ -29,7 +29,11 @@ public:
 
 	bool stopped = false;
 
-	void TimerInt();
+	void Interrupt(uint16_t add);
+
+	bool debug = false;
+	bool debugOp = false;
+	bool debugMem = false;
 
 private:
 	void Debug();

@@ -94,12 +94,11 @@ uint8_t Cartridge::Read(uint16_t add)
 	uint8_t value = 0;
 	if (add < 0x4000) {
 		value = ROM[add];
-	}
+	} else
 	if (add >= 0x4000 && add < 0x8000) {
 		uint16_t dir = add + (currentRomBank - 1) * 0x4000;
 		value = ROM[dir];
-	}
-
+	} else
 	if (add >= 0xA000 && add < 0xC000 && nRamBanks > 0 && RamEnable) {
 		RamEnable = false;
 		value = RAM[add];
