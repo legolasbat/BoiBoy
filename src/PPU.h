@@ -61,8 +61,6 @@ public:
 
 	bool frameComplete = false;
 
-	void WriteLCDC(uint8_t n);
-
 private:
 
 	BoiBoy* memory = nullptr;
@@ -89,6 +87,8 @@ private:
 
 	// Memory range 0xFE00 - 0xFE9F
 	uint8_t OAM[0xA0];
+
+	void WriteLCDC(uint8_t n);
 
 	void GetBGRow(uint8_t r);
 	void GetWinRow(uint8_t r);

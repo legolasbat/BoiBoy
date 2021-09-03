@@ -1,4 +1,5 @@
 #include <SFML/Graphics.hpp>
+#include <chrono>
 
 #include "Memory.h"
 
@@ -29,6 +30,8 @@ int main()
 
     bool nextInst = true;
     bool nextFrame = true;
+
+    std::chrono::steady_clock::time_point start = std::chrono::high_resolution_clock::now();
 
     while (window.isOpen())
     {
@@ -155,6 +158,10 @@ int main()
 
         if (/*cycles >= 17556*/boi.ppu.frameComplete && nextFrame) {
 
+            while (std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::high_resolution_clock::now() - start).count() < 16.67) {
+            
+            }
+
             window.clear();
             pixels.update(boi.ppu.GetScreen());
             screen.setTexture(pixels);
@@ -168,6 +175,8 @@ int main()
                 nextInst = false;
                 nextFrame = false;
             }
+
+            start = std::chrono::high_resolution_clock::now();
         }
         
     }

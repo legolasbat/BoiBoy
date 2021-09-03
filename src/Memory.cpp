@@ -291,31 +291,13 @@ void BoiBoy::Write(uint16_t add, uint8_t n) {
 			IFReg = n | 0xE0;
 			return;
 		}
-		if (add == 0xFF40) {
-			ppu.WriteLCDC(n);
+
+		// PPU Registers
+		if ((add >= 0xFF40 && add < 0xFF46) || (add > 0xFF46 && add <= 0xFF4B)) {
+			ppu.Write(add, n);
 			return;
 		}
-		if (add == 0xFF41) {
-			ppu.STAT = n | 0x80;
-			return;
-		}
-		if (add == 0xFF42) {
-			ppu.SCY = n;
-			return;
-		}
-		if (add == 0xFF43) {
-			ppu.SCX = n;
-			return;
-		}
-		if (add == 0xFF44) {
-			std::cout << "Trying to writting in LY" << std::endl;
-			// Read only
-			return;
-		}
-		if (add == 0xFF45) {
-			ppu.LYC = n;
-			return;
-		}
+		
 		if (add == 0xFF46) {
 			//std::cout << "DMA: " << (int)n << std::endl;
 			if (DMA)
@@ -325,31 +307,11 @@ void BoiBoy::Write(uint16_t add, uint8_t n) {
 			DMA = true;
 			return;
 		}
-		if (add == 0xFF47) {
-			ppu.BGP = n;
-			return;
-		}
-		if (add == 0xFF48) {
-			ppu.OBP0 = n;
-			return;
-		}
-		if (add == 0xFF49) {
-			ppu.OBP1 = n;
-			return;
-		}
 		if (add == 0xFF50) {
 			if (n != 0) {
 				bootRom = false;
 				cpu.InitMem();
 			}
-			return;
-		}
-		if (add == 0xFF4A) {
-			ppu.WY = n;
-			return;
-		}
-		if (add == 0xFF4B) {
-			ppu.WX = n;
 			return;
 		}
 		IORegisters[add & 0x7F] = n;
@@ -433,41 +395,12 @@ uint8_t BoiBoy::Read(uint16_t add) {
 		if (add == 0xFF0F) {
 			value = IFReg;
 		} else
-		if (add == 0xFF40) {
-			value = ppu.LCDC;
-		} else
-		if (add == 0xFF41) {
-			value = ppu.STAT;
-		} else
-		if (add == 0xFF42) {
-			value = ppu.SCY;
-		} else
-		if (add == 0xFF43) {
-			value = ppu.SCX;
-		} else
-		if (add == 0xFF44) {
-			value = ppu.LY;
-		} else
-		if (add == 0xFF45) {
-			value = ppu.LYC;
-		} else
+		if ((add >= 0xFF40 && add < 0xFF46) || (add > 0xFF46 && add <= 0xFF4B)) {
+			value = ppu.Read(add);
+		}
+		else
 		if (add == 0xFF46) {
 			std::cout << "Reading DMA?" << std::endl;
-		} else
-		if (add == 0xFF47) {
-			value = ppu.BGP;
-		} else
-		if (add == 0xFF48) {
-			value = ppu.OBP0;
-		} else
-		if (add == 0xFF49) {
-			value = ppu.OBP1;
-		} else
-		if (add == 0xFF4A) {
-			value = ppu.WY;
-		} else
-		if (add == 0xFF4B) {
-			value = ppu.WX;
 		}
 		else {
 			value = IORegisters[add & 0x7F];

@@ -119,22 +119,69 @@ void PPU::Write(uint16_t add, uint8_t n)
 	if (add >= 0x8000 && add < 0x9800) {
 		tileData[add - 0x8000] = n;
 		return;
-	} else
+	}
 
 	if (add >= 0x9800 && add < 0x9C00) {
 		tileMap0[add - 0x9800] = n;
 		return;
-	} else
+	}
 
 	if (add >= 0x9C00 && add < 0xA000) {
 		tileMap1[add - 0x9C00] = n;
 		return;
 	}
-	else
 
 	if (add >= 0xFE00 && add < 0xFEA0) {
 		OAM[add - 0xFE00] = n;
 		return;
+	}
+
+	if ((add >= 0xFF40 && add < 0xFF46) || (add > 0xFF46 && add <= 0xFF4B)) {
+		if (add == 0xFF40) {
+			WriteLCDC(n);
+			return;
+		}
+		if (add == 0xFF41) {
+			STAT = n | 0x80;
+			return;
+		}
+		if (add == 0xFF42) {
+			SCY = n;
+			return;
+		}
+		if (add == 0xFF43) {
+			SCX = n;
+			return;
+		}
+		if (add == 0xFF44) {
+			std::cout << "Trying to writting in LY" << std::endl;
+			// Read only
+			return;
+		}
+		if (add == 0xFF45) {
+			LYC = n;
+			return;
+		}
+		if (add == 0xFF47) {
+			BGP = n;
+			return;
+		}
+		if (add == 0xFF48) {
+			OBP0 = n;
+			return;
+		}
+		if (add == 0xFF49) {
+			OBP1 = n;
+			return;
+		}
+		if (add == 0xFF4A) {
+			WY = n;
+			return;
+		}
+		if (add == 0xFF4B) {
+			WX = n;
+			return;
+		}
 	}
 }
 
@@ -159,6 +206,53 @@ uint8_t PPU::Read(uint16_t add)
 
 	if (add >= 0xFE00 && add < 0xFEA0) {
 		value = OAM[add - 0xFE00];
+	}
+	else
+
+	if ((add >= 0xFF40 && add < 0xFF46) || (add > 0xFF46 && add <= 0xFF4B)) {
+		if (add == 0xFF40) {
+			value = LCDC;
+		}
+		else
+		if (add == 0xFF41) {
+			value = STAT;
+		}
+		else
+		if (add == 0xFF42) {
+			value = SCY;
+		}
+		else
+		if (add == 0xFF43) {
+			value = SCX;
+		}
+		else
+		if (add == 0xFF44) {
+			value = LY;
+		}
+		else
+		if (add == 0xFF45) {
+			value = LYC;
+		}
+		else
+		if (add == 0xFF47) {
+			value = BGP;
+		}
+		else
+		if (add == 0xFF48) {
+			value = OBP0;
+		}
+		else
+		if (add == 0xFF49) {
+			value = OBP1;
+		}
+		else
+		if (add == 0xFF4A) {
+			value = WY;
+		}
+		else
+		if (add == 0xFF4B) {
+			value = WX;
+		}
 	}
 
 	return value;
