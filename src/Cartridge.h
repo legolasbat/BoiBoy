@@ -8,7 +8,7 @@ class Cartridge
 public:
 	Cartridge(const char* game);
 
-	void Write(uint16_t add, uint8_t b);
+	void Write(uint16_t add, uint8_t n);
 	uint8_t Read(uint16_t add);
 
 private:
@@ -21,6 +21,8 @@ private:
 	uint8_t nRamBanks = 0;
 
 	bool RamEnable = false;
+
+	bool bankingMode = false;
 
 	uint8_t secondaryBank = 0;
 

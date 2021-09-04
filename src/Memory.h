@@ -54,7 +54,7 @@ private:
 	uint8_t WRAM[0x2000];
 
 	uint8_t controller = 0xCF;
-	uint8_t IORegisters[0x80];
+	//uint8_t IORegisters[0x80];
 
 	uint8_t HRAM[0x7F];
 

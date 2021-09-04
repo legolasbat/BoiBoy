@@ -17,8 +17,9 @@ int main()
 
     begin:
     //Cartridge cart("Tetris.gb");
-    Cartridge cart("Dr. Mario.gb");
+    //Cartridge cart("Dr. Mario.gb");
     //Cartridge cart("Super Mario Land.gb");
+    Cartridge cart("Kirby's Dream Land.gb");
 
     BoiBoy boi(&cart);
 

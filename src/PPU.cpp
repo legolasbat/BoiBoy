@@ -7,10 +7,14 @@ void PPU::Clock(int cycles) {
 		return;
 	}
 
-	if (mode == 1)
+	if (mode == 1) {
 		scanlineCycles += cycles * 2;
+		cnt -= cycles;
+	}
+	else {
+		cnt -= cycles * 2;
+	}
 
-	cnt -= cycles * 2;
 
 	if (cnt < 0) {
 		switch (mode) {
@@ -61,8 +65,8 @@ void PPU::Clock(int cycles) {
 			mode = 3;
 			STAT &= 0xFC;
 			STAT |= 0x03;
-			cntOffset = 3 * spriteCont;
-			cnt += 43 + cntOffset;
+			cntOffset = 2 * 3 * spriteCont;
+			cnt += 86 + cntOffset;
 			drew = false;
 			break;
 
@@ -72,7 +76,7 @@ void PPU::Clock(int cycles) {
 			STAT &= 0xFC;
 			if ((STAT & 0x08) == 0x08)
 				memory->IFReg |= 0x02;
-			cnt += 94 - (43 + cntOffset);
+			cnt += 188 - (86 + cntOffset);
 			break;
 		}
 	}
@@ -365,10 +369,6 @@ void PPU::GetBGRow(uint8_t r) {
 	if ((LCDC & 0x01) != 0x01)
 		return;
 
-	if (r < 0xF && SCX != 0) {
-		return;
-	}
-
 	uint16_t mapDir = ((LCDC & 0x08) == 0x08) ? 0x9C00 : 0x9800;
 
 	uint16_t dataDir = ((LCDC & 0x10) == 0x10) ? 0x8000 : 0x8800;
@@ -451,10 +451,10 @@ void PPU::GetSpRow(uint8_t r) {
 		int offset = 0;
 
 		if ((attr & 0x40) == 0x40) {
-			offset = index * 0x10 + ((spriteHeight - ((r - posY) % 8)) * 2);
+			offset = index * 0x10 + ((posY + 16 - r - 1) % spriteHeight * 2);
 		}
 		else {
-			offset = index * 0x10 + ((r - posY + 16) % 8 * 2);
+			offset = index * 0x10 + ((r - posY + 16) % spriteHeight * 2);
 		}
 
 		uint8_t low = Read(dataDir + offset);

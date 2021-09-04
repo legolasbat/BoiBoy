@@ -16,7 +16,7 @@ CPUSharp::CPUSharp() {
 	//PC.value = 0x00;	// For Boot Rom
 	PC.value = 0x100;
 
-	//if (freopen_s(&LOG, "SuperMarioLOG.txt", "a", stdout) == NULL) {
+	//if (freopen_s(&LOG, "KirbyLOG.txt", "a", stdout) == NULL) {
 	//	return;
 	//}
 }

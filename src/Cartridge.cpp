@@ -39,9 +39,12 @@ Cartridge::Cartridge(const char* game)
 		if (nRomBanks == 2) {
 			std::cout << "No ROM banking" << std::endl;
 		}
-		else if(nRomBanks <= 0x08){
+		else if (nRomBanks <= 0x7F) {
 			std::cout << (int)nRomBanks << " ROM Banks" << std::endl;
 		}
+		//else if(nRomBanks <= 0x08){
+		//	std::cout << (int)nRomBanks << " ROM Banks" << std::endl;
+		//}
 		else {
 			std::cout << "CARTRIDGE ROM SIZE NOT HANDLED" << std::endl;
 		}
@@ -65,26 +68,39 @@ Cartridge::Cartridge(const char* game)
 	}
 }
 
-void Cartridge::Write(uint16_t add, uint8_t b)
+void Cartridge::Write(uint16_t add, uint8_t n)
 {
 	if (add < 0x2000) {
-		if ((b & 0xA) == 0xA && nRamBanks > 0) {
+		if ((n & 0xA) == 0xA && nRamBanks > 0) {
 			RamEnable = true;
+		}
+		else {
+			RamEnable = false;
 		}
 		return;
 	}
 	if (add >= 0x2000 && add < 0x4000) {
 		if (nRomBanks > 2) {
-			currentRomBank = (b & 0x1F) + (secondaryBank << 5);
+			currentRomBank = (n & 0x1F) + secondaryBank;
+			if(n == 0x00 || n == 0x20 || n == 0x40 || n == 0x60)
+				currentRomBank += 1;
 		}
 		return;
 	}
 	if (add >= 0x4000 && add < 0x6000) {
-		std::cout << "Write Cart in range 0x4000 - 0x6000 not handled" << std::endl;
+		if (!bankingMode)
+			secondaryBank = (n & 0x3) << 5;
+		else
+			std::cout << "Ram selection not enable" << std::endl;
 		return;
 	}
 	if (add >= 0x6000 && add < 0x8000) {
-		std::cout << "Write Cart in range 0x6000 - 0x8000 not handled" << std::endl;
+		if (n == 0) {
+			bankingMode = false;
+		}
+		else {
+			bankingMode = true;
+		}
 		return;
 	}
 }
@@ -96,7 +112,7 @@ uint8_t Cartridge::Read(uint16_t add)
 		value = ROM[add];
 	} else
 	if (add >= 0x4000 && add < 0x8000) {
-		uint16_t dir = add + (currentRomBank - 1) * 0x4000;
+		int dir = add + (currentRomBank - 1) * 0x4000;
 		value = ROM[dir];
 	} else
 	if (add >= 0xA000 && add < 0xC000 && nRamBanks > 0 && RamEnable) {
