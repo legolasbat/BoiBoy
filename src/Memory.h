@@ -3,6 +3,7 @@
 #include "Cartridge.h"
 #include "CPUSharp.h"
 #include "PPU.h"
+#include "SPU.h"
 #include "BootRom.h"
 
 #include <vector>
@@ -25,6 +26,7 @@ public:
 	CPUSharp cpu;
 	Cartridge* cart;
 	PPU ppu;
+	SPU spu;
 
 	uint8_t IFReg = 0;
 	uint8_t IEReg = 0;
@@ -54,13 +56,10 @@ private:
 	uint8_t WRAM[0x2000];
 
 	uint8_t controller = 0xCF;
-	//uint8_t IORegisters[0x80];
 
 	uint8_t HRAM[0x7F];
 
 	void Timer();
 	void Interrupt();
-
-	char Letter;
 };
 

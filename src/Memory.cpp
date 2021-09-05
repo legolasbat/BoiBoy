@@ -5,35 +5,52 @@
 
 BoiBoy::BoiBoy(Cartridge* game) {
 	cart = game;
-	cpu.ConnectMem(this);
-	cpu.InitMem();
+	cpu.ConnectMem(this, bootRom);
 	ppu.ConnectMem(this);
 
+	for (int i = 0; i < 0x7F; i++) {
+		HRAM[i] = 0;
+	}
+
+	for (int i = 0; i < 0x2000; i++) {
+		WRAM[i] = 0;
+	}
+
+	if (!bootRom) {
+		cpu.InitMem();
+		InitializeIO();
+	}
+	
 	cycles = 0;
+
+
 }
 void BoiBoy::InitializeIO() {
 	// Memory range 0xFF00 - 0xFF70
-	//IORegisters[0x00] = 0xCF;
+	// 0xFF00
+	controller = 0xCF;
+
+	// Serial
+	// 0xFF01
 	//IORegisters[0x01] = 0x00;
+	// 0xFF02
 	//IORegisters[0x02] = 0x7E;
-	////IORegisters[0x03] = 0x00;	// Not init (?)
+	
+	// Timer 0xFF04 - 0xFF07
+	// 0xFF04
 	dividerReg = 0xAB;
-	//IORegisters[0x04] = 0xAB;
+	// 0xFF05
 	TIMA = 0x00;
-	//IORegisters[0x05] = 0x00;
+	// 0xFF06
 	TMA = 0x00;
-	//IORegisters[0x06] = 0x00;
+	// 0xFF07
 	TAC = 0xF8;
-	//IORegisters[0x07] = 0xF8;
-	////IORegisters[0x08] = 0x00;	// Not init (?)
-	////IORegisters[0x09] = 0x00;	// Not init (?)
-	////IORegisters[0x0A] = 0x00;	// Not init (?)
-	////IORegisters[0x0B] = 0x00;	// Not init (?)
-	////IORegisters[0x0C] = 0x00;	// Not init (?)
-	////IORegisters[0x0D] = 0x00;	// Not init (?)
-	////IORegisters[0x0E] = 0x00;	// Not init (?)
+
+	// 0xFF0F
 	IFReg = 0xE1;
-	//IORegisters[0x0F] = 0xE1;	// Should be E1
+
+	// SPU 0xFF10 - 0xFF26
+	//spu.Write();
 	//IORegisters[0x10] = 0x80;
 	//IORegisters[0x11] = 0xBF;
 	//IORegisters[0x12] = 0xF3;
@@ -57,21 +74,22 @@ void BoiBoy::InitializeIO() {
 	//IORegisters[0x24] = 0x77;
 	//IORegisters[0x25] = 0xF3;
 	//IORegisters[0x26] = 0xF1;
-	////IORegisters[0x27] = 0x00;	// Not init (?)
-	//// Not init until 0xFF40
-	//
-	//IORegisters[0x40] = 0x91;
-	//IORegisters[0x41] = 0x85;
-	//IORegisters[0x42] = 0x00;
-	//IORegisters[0x43] = 0x00;
-	//IORegisters[0x44] = 0x90;	// Should be 0
-	//IORegisters[0x45] = 0x00;
-	//IORegisters[0x46] = 0xFF;
-	//IORegisters[0x47] = 0xFC;
-	//IORegisters[0x48] = 0xFF;
-	//IORegisters[0x49] = 0xFF;
-	//IORegisters[0x4A] = 0x00;
-	//IORegisters[0x4B] = 0x00;
+	
+	// PPU 0xFF40 - 0xFF4B
+	ppu.LCDC = 0x91;
+	ppu.STAT = 0x85;
+	ppu.SCY = 0x00;
+	ppu.SCX = 0x00;
+	ppu.LY = 0x00;
+	ppu.LYC = 0x00;
+	dmaAdd = 0xFF;
+	ppu.BGP = 0xFC;
+	ppu.OBP0 = 0xFF;
+	ppu.OBP1 = 0xFF;
+	ppu.WY = 0x00;
+	ppu.WX = 0x00;
+
+	// Game boy color
 	////IORegisters[0x4C] = 0x00;	// Not init (?)
 	//IORegisters[0x4D] = 0xFF;
 	////IORegisters[0x4E] = 0x00;	// Not init (?)
@@ -90,6 +108,8 @@ void BoiBoy::InitializeIO() {
 	//IORegisters[0x6B] = 0xFF;
 	//
 	//IORegisters[0x70] = 0xFF;
+
+	IEReg = 0x00;
 }
 
 int BoiBoy::Clock() {
@@ -110,6 +130,8 @@ int BoiBoy::Clock() {
 	}
 
 	ppu.Clock(cpuCycles);
+
+	spu.Clock(cpuCycles);
 
 	// Timer
 	Timer();
@@ -244,17 +266,16 @@ void BoiBoy::Write(uint16_t add, uint8_t n) {
 			return;
 		}
 
-		// Blargg tests
+		// Serial
 		if (add == 0xFF01) {
-			Letter = (char)n;
+			std::cout << "Serial not implemented" << std::endl;
 			return;
 		}
 		if (add == 0xFF02) {
-			if (n == 0x81)
-				std::cout << Letter;
+			std::cout << "Serial not implemented" << std::endl;
 			return;
 		}
-
+#pragma region timer
 		if (add == 0xFF04) {
 			dividerReg = 0;
 			return;
@@ -288,8 +309,15 @@ void BoiBoy::Write(uint16_t add, uint8_t n) {
 			}
 			return;
 		}
+#pragma endregion
 		if (add == 0xFF0F) {
 			IFReg = n | 0xE0;
+			return;
+		}
+
+		// SPU Registers
+		if (add >= 0xFF10 && add < 0xFF40) {
+			spu.Write(add, n);
 			return;
 		}
 
@@ -309,9 +337,10 @@ void BoiBoy::Write(uint16_t add, uint8_t n) {
 			return;
 		}
 		if (add == 0xFF50) {
-			if (n != 0) {
+			if (n != 0 && bootRom) {
 				bootRom = false;
 				cpu.InitMem();
+				InitializeIO();
 			}
 			return;
 		}
@@ -384,6 +413,9 @@ uint8_t BoiBoy::Read(uint16_t add) {
 			}
 			value = controller;
 		} else
+		if (add == 0xFF01) {
+			value = 0xFF;
+		} else
 		if (add == 0xFF04) {
 			value = dividerReg;
 		} else
@@ -396,15 +428,17 @@ uint8_t BoiBoy::Read(uint16_t add) {
 		if (add == 0xFF0F) {
 			value = IFReg;
 		} else
+		// SPU Registers
+		if (add >= 0xFF10 && add < 0xFF40) {
+			value = spu.Read(add);
+		} else
+		// PPU Registers
 		if ((add >= 0xFF40 && add < 0xFF46) || (add > 0xFF46 && add <= 0xFF4B)) {
 			value = ppu.Read(add);
 		}
 		else
 		if (add == 0xFF46) {
 			std::cout << "Reading DMA?" << std::endl;
-		}
-		else {
-			//value = IORegisters[add & 0x7F];
 		}
 	} else
 

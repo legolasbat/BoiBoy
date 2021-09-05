@@ -13,7 +13,6 @@ CPUSharp::CPUSharp() {
 	DE.value = 0x00D8;
 	HL.value = 0x014D;
 	SP.value = 0xFFFE;
-	//PC.value = 0x00;	// For Boot Rom
 	PC.value = 0x100;
 
 	//if (freopen_s(&LOG, "KirbyLOG.txt", "a", stdout) == NULL) {
@@ -42,9 +41,6 @@ void CPUSharp::InitMem() {
 	else {
 		std::cout << "Checksum Failed" << std::endl;
 	}
-
-	// Initialize memory
-	memory->InitializeIO();
 }
 
 int CPUSharp::Clock() {

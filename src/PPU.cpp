@@ -2,6 +2,36 @@
 
 #include "Memory.h"
 
+PPU::PPU() {
+	for (int i = 0; i < 0xA0; i++) {
+		OAM[i] = 0;
+	}
+
+	for (int i = 0; i < 10; i++) {
+		spritesIndex[i] = 0;
+	}
+
+	for (int i = 0; i < 0x1800; i++) {
+		tileData[i] = 0;
+	}
+
+	for (int i = 0; i < 0x400; i++) {
+		tileMap0[i] = 0;
+	}
+
+	for (int i = 0; i < 0x400; i++) {
+		tileMap1[i] = 0;
+	}
+
+	for (int i = 0; i < 256 * 256 * 3; i++) {
+		fullScreen[i] = 0;
+	}
+
+	for (int i = 0; i < 160 * 144 * 4; i++) {
+		frameBufferA[i] = 0;
+	}
+}
+
 void PPU::Clock(int cycles) {
 	if ((LCDC & 0x80) != 0x80) {
 		return;
@@ -298,35 +328,6 @@ void PPU::CheckLY() {
 	else {
 		STAT &= ~0x04;
 	}
-}
-
-uint8_t* PPU::GetPixels() {
-	if ((LCDC & 0x80) != 0x80)
-		return data;
-
-	uint16_t dataDir = ((LCDC & 0x10) == 0x10) ? 0x8000 : 0x8800;
-
-	uint16_t mapDir = ((LCDC & 0x08) == 0x08) ? 0x9C00 : 0x9800;
-
-	for (int r = 0; r < 128; r++) {
-		for (int c = 0; c < 128; c++) {
-			int offset = (r / 8 * 0x100) + (r % 8) * 2 + (c / 8 * 0x10);
-
-			uint8_t low = Read(dataDir + offset);
-			uint8_t high = Read(dataDir + offset + 1);
-
-			uint8_t color = ((low >> (7 - (c % 8))) & 1) + ((high >> (7 - (c % 8))) & 1) * 2;
-
-			uint32_t pal = pallete[color & 0x3];
-
-			data[(r * 128 * 4) + (c * 4)] = (pal >> 24) & 0xFF; // R
-			data[(r * 128 * 4) + (c * 4) + 1] = (pal >> 16) & 0xFF; // G
-			data[(r * 128 * 4) + (c * 4) + 2] = (pal >> 8) & 0xFF; // B
-			data[(r * 128 * 4) + (c * 4) + 3] = pal & 0xFF; // A
-		}
-	}
-
-	return data;
 }
 
 uint8_t* PPU::GetBackground() {

@@ -7,6 +7,8 @@ class BoiBoy;
 class PPU
 {
 public:
+	PPU();
+
 	void ConnectMem(BoiBoy* mem) { memory = mem; }
 
 	void Clock(int cycles);
@@ -17,7 +19,6 @@ public:
 	uint8_t fullScreen[256 * 256 * 3];
 	// Gameboy screen
 	uint8_t frameBufferA[160 * 144 * 4];
-	uint8_t data[128 * 128 * 4];
 
 	// 0xFF40
 	uint8_t LCDC = 0x91;
@@ -52,7 +53,6 @@ public:
 	// 0xFF4B
 	uint8_t WX = 0;
 
-	uint8_t* GetPixels();
 	uint8_t* GetBackground();
 	uint8_t* GetScreen();
 

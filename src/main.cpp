@@ -16,10 +16,11 @@ int main()
     screen.setTexture(pixels);
 
     begin:
-    //Cartridge cart("Tetris.gb");
+    Cartridge cart("Tetris.gb");
     //Cartridge cart("Dr. Mario.gb");
     //Cartridge cart("Super Mario Land.gb");
-    Cartridge cart("Kirby's Dream Land.gb");
+    //Cartridge cart("Kirby's Dream Land.gb");
+    //Cartridge cart("Zelda.gb");
 
     BoiBoy boi(&cart);
 
@@ -128,6 +129,19 @@ int main()
                         nextInst = true;
                     }
                 }
+                // Channels enables
+                if (event.key.code == sf::Keyboard::Num1) {
+                    boi.spu.channel1 = !boi.spu.channel1;
+                }
+                if (event.key.code == sf::Keyboard::Num2) {
+                    boi.spu.channel2 = !boi.spu.channel2;
+                }
+                if (event.key.code == sf::Keyboard::Num3) {
+                    boi.spu.channel3 = !boi.spu.channel3;
+                }
+                if (event.key.code == sf::Keyboard::Num4) {
+                    boi.spu.channel4 = !boi.spu.channel4;
+                }
             }
             if (event.type == sf::Event::KeyReleased) {
                 if (event.key.code == sf::Keyboard::D) {
@@ -159,9 +173,9 @@ int main()
 
         if (/*cycles >= 17556*/boi.ppu.frameComplete && nextFrame) {
 
-            while (std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::high_resolution_clock::now() - start).count() < 16.67) {
-            
-            }
+            //while (std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::high_resolution_clock::now() - start).count() < 16.67) {
+            //
+            //}
 
             window.clear();
             pixels.update(boi.ppu.GetScreen());

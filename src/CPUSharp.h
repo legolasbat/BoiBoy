@@ -17,7 +17,11 @@ public:
 	CPUSharp();
 	~CPUSharp();
 
-	void ConnectMem(BoiBoy* mem) { memory = mem; }
+	void ConnectMem(BoiBoy* mem, bool bootRom) {
+		memory = mem;
+		if (bootRom)
+			PC.value = 0;
+	}
 
 	void InitMem();
 
