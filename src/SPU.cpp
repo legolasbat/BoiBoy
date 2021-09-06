@@ -9,7 +9,7 @@ SPU::SPU() {
 	audioSpec.format = AUDIO_S16SYS;
 	audioSpec.channels = 2;
 	audioSpec.samples = maxSamples/2;
-
+	
 	SDL_OpenAudio(&audioSpec, NULL);
 	SDL_PauseAudio(0);
 }
@@ -121,7 +121,7 @@ void SPU::Clock(int cycles)
 				while (SDL_GetQueuedAudioSize(1) > maxSamples * sizeof(int16_t)) {
 					sf::sleep(sf::microseconds(1));
 				}
-
+				
 				SDL_QueueAudio(1, samples.data(), samples.size() * sizeof(int16_t));
 			}
 		}
@@ -198,6 +198,9 @@ uint8_t SPU::Read(uint16_t add)
 	// Channel 4
 	if (add >= 0xFF20 && add <= 0xFF23) {
 		value = ch4.Read(add);
+	}
+	else if (add == 0xFF24) {
+		value = (leftVol << 4) | rightVol;
 	}
 
 	return value;

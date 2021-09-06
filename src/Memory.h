@@ -36,6 +36,8 @@ public:
 
 	uint8_t TIMA = 0;
 
+	bool speed = false;
+
 private:
 
 	bool bootRom = false;

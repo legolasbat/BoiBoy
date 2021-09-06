@@ -131,6 +131,9 @@ int main()
                         nextInst = true;
                     }
                 }
+                if (event.key.code == sf::Keyboard::Tab) {
+                    boi.speed = !boi.speed;
+                }
                 // Channels enables
                 if (event.key.code == sf::Keyboard::Num1) {
                     boi.spu.channel1 = !boi.spu.channel1;

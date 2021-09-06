@@ -129,7 +129,12 @@ int BoiBoy::Clock() {
 		}
 	}
 
-	ppu.Clock(cpuCycles);
+	if (speed) {
+		ppu.Clock(cpuCycles * 2);
+	}
+	else {
+		ppu.Clock(cpuCycles);
+	}
 
 	spu.Clock(cpuCycles * 4); // Machine Cycles
 
@@ -171,29 +176,29 @@ void BoiBoy::Interrupt() {
 	if ((IFReg & IEReg) != 0 && cpu.IME) {
 		// Handle interrupt
 		// V-Blank
-		if ((IFReg & IEReg) == 0x01) {
+		if ((IFReg & (IEReg & 0x01) ) == 0x01) {
 			//std::cout << "V Blank Interrupt" << std::endl;
 			cpu.Interrupt(0x0040);
 			IFReg &= ~0x01;
 		}
 		// LCD STAT
-		else if ((IFReg & IEReg) == 0x02) {
+		else if ((IFReg & (IEReg & 0x02)) == 0x02) {
 			//std::cout << "STAT Interrupt" << std::endl;
 			cpu.Interrupt(0x0048);
 			IFReg &= ~0x02;
 		}
 		// Timer
-		else if ((IFReg & IEReg) == 0x04) {
+		else if ((IFReg & (IEReg & 0x04)) == 0x04) {
 			//std::cout << "Timer Interrupt" << std::endl;
 			cpu.Interrupt(0x0050);
 			IFReg &= ~0x04;
 		}
 		// Serial
-		else if ((IFReg & IEReg) == 0x08) {
+		else if ((IFReg & (IEReg & 0x08)) == 0x08) {
 
 		}
 		// Joypad
-		else if ((IFReg & IEReg) == 0x10) {
+		else if ((IFReg & (IEReg & 0x10)) == 0x10) {
 			std::cout << "Joypad Interrupt" << std::endl;
 			cpu.Interrupt(0x0060);
 			IFReg &= ~0x10;
@@ -202,23 +207,23 @@ void BoiBoy::Interrupt() {
 	else if (!cpu.IME && cpu.halted) {
 		// Handle interrupt
 		// V-Blank
-		if ((IFReg & IEReg) == 0x01) {
+		if ((IFReg & (IEReg & 0x01)) == 0x01) {
 			cpu.interrupt = true;
 		}
 		// LCD STAT
-		else if ((IFReg & IEReg) == 0x02) {
+		else if ((IFReg & (IEReg & 0x02)) == 0x02) {
 			cpu.interrupt = true;
 		}
 		// Timer
-		else if ((IFReg & IEReg) == 0x04) {
+		else if ((IFReg & (IEReg & 0x04)) == 0x04) {
 			cpu.interrupt = true;
 		}
 		// Serial
-		else if ((IFReg & IEReg) == 0x08) {
+		else if ((IFReg & (IEReg & 0x08)) == 0x08) {
 
 		}
 		// Joypad
-		else if ((IFReg & IEReg) == 0x10) {
+		else if ((IFReg & (IEReg & 0x10)) == 0x10) {
 			cpu.interrupt = true;
 		}
 	}

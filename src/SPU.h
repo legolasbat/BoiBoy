@@ -28,9 +28,6 @@ public:
 
 private:
 
-	//sf::Sound outputAudio;
-	//sf::SoundBuffer buffer;
-
 	std::vector<int16_t> samples;
 	int maxSamples = 2048;
 	int samplesIndex = 0;

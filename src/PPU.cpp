@@ -38,7 +38,7 @@ void PPU::Clock(int cycles) {
 	}
 
 	if (mode == 1) {
-		scanlineCycles += cycles * 2;
+		scanlineCycles += cycles;
 		cnt -= cycles;
 	}
 	else {

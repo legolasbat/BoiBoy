@@ -170,6 +170,7 @@ uint8_t Cartridge::Read(uint16_t add)
 			if (currentRomBank == 0x20 || currentRomBank == 0x40 || currentRomBank == 0x60) {
 				dir += currentRomBank * 0x4000;
 			}
+			
 			value = ROM[dir];
 		}
 	}
