@@ -16,11 +16,13 @@ int main()
     screen.setTexture(pixels);
 
     begin:
-    Cartridge cart("Tetris.gb");
+    //Cartridge cart("Tetris.gb");
     //Cartridge cart("Dr. Mario.gb");
     //Cartridge cart("Super Mario Land.gb");
-    //Cartridge cart("Kirby's Dream Land.gb");
+    Cartridge cart("Kirby's Dream Land.gb");
     //Cartridge cart("Zelda.gb");
+    //Cartridge cart("cpu_instrs/dmg_sound.gb");
+    //Cartridge cart("cpu_instrs/rom_singles/01-registers.gb");
 
     BoiBoy boi(&cart);
 

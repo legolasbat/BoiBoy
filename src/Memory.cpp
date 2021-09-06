@@ -131,7 +131,7 @@ int BoiBoy::Clock() {
 
 	ppu.Clock(cpuCycles);
 
-	spu.Clock(cpuCycles);
+	spu.Clock(cpuCycles * 4); // Machine Cycles
 
 	// Timer
 	Timer();
@@ -244,6 +244,12 @@ void BoiBoy::Write(uint16_t add, uint8_t n) {
 		return;
 	}
 
+	// External RAM
+	if (add >= 0xA000 && add < 0xC000) {
+		cart->Write(add, n);
+		return;
+	}
+
 	// WRAM (0xC000 - 0xDFFF, 0xE000 - 0xFDFF are mirror of 0xC000 - 0xDDFF)
 	if (add >= 0xC000 && add < 0xFE00) {
 		WRAM[add & 0x1FFF] = n;
@@ -268,11 +274,11 @@ void BoiBoy::Write(uint16_t add, uint8_t n) {
 
 		// Serial
 		if (add == 0xFF01) {
-			std::cout << "Serial not implemented" << std::endl;
+			//std::cout << "Serial not implemented" << std::endl;
 			return;
 		}
 		if (add == 0xFF02) {
-			std::cout << "Serial not implemented" << std::endl;
+			//std::cout << "Serial not implemented" << std::endl;
 			return;
 		}
 #pragma region timer
