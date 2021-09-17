@@ -3,7 +3,7 @@
 
 #include "Memory.h"
 
-int main()
+int main(int argc, char*argv[])
 {
     sf::RenderWindow window(sf::VideoMode(160, 144), "BoiBoy");
     sf::Vector2u size(480, 432);
@@ -16,13 +16,7 @@ int main()
     screen.setTexture(pixels);
 
     begin:
-    //Cartridge cart("Tetris.gb");
-    //Cartridge cart("Dr. Mario.gb");
-    //Cartridge cart("Super Mario Land.gb");
-    Cartridge cart("Kirby's Dream Land.gb");
-    //Cartridge cart("Zelda.gb");
-    //Cartridge cart("cpu_instrs/dmg_sound.gb");
-    //Cartridge cart("cpu_instrs/rom_singles/01-registers.gb");
+    Cartridge cart(argv[1]);
 
     BoiBoy boi(&cart);
 
@@ -34,6 +28,8 @@ int main()
 
     bool nextInst = true;
     bool nextFrame = true;
+
+    int frames = 0;
 
     std::chrono::steady_clock::time_point start = std::chrono::high_resolution_clock::now();
 
@@ -176,11 +172,13 @@ int main()
             }
         }
 
-        if (/*cycles >= 17556*/boi.ppu.frameComplete && nextFrame) {
+        if (cycles >= 17556 /*boi.ppu.frameComplete*/ && nextFrame) {
 
             //while (std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::high_resolution_clock::now() - start).count() < 16.67) {
             //
             //}
+            frames++;
+            //std::cout << frames << std::endl;
 
             window.clear();
             pixels.update(boi.ppu.GetScreen());
@@ -188,8 +186,8 @@ int main()
             window.draw(screen);
             window.display();
 
-            boi.ppu.frameComplete = false;
-            //cycles -= 17556;
+            //boi.ppu.frameComplete = false;
+            cycles -= 17556;
 
             if (debugFrameMode) {
                 nextInst = false;

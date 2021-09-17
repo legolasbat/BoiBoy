@@ -130,13 +130,13 @@ int BoiBoy::Clock() {
 	}
 
 	if (speed) {
-		ppu.Clock(cpuCycles * 2);
+		ppu.Clock(cpuCycles * 4);
+		spu.Clock(cpuCycles * 4);
 	}
 	else {
 		ppu.Clock(cpuCycles);
+		spu.Clock(cpuCycles * 4); // T Cycles
 	}
-
-	spu.Clock(cpuCycles * 4); // Machine Cycles
 
 	// Timer
 	Timer();
@@ -178,12 +178,16 @@ void BoiBoy::Interrupt() {
 		// V-Blank
 		if ((IFReg & (IEReg & 0x01) ) == 0x01) {
 			//std::cout << "V Blank Interrupt" << std::endl;
+			//std::cout << ppu.mode << std::endl << std::endl;
+			cpu.Vblank = true;
 			cpu.Interrupt(0x0040);
 			IFReg &= ~0x01;
 		}
 		// LCD STAT
 		else if ((IFReg & (IEReg & 0x02)) == 0x02) {
 			//std::cout << "STAT Interrupt" << std::endl;
+			//std::cout << ppu.mode << std::endl << std::endl;
+			cpu.stat = true;
 			cpu.Interrupt(0x0048);
 			IFReg &= ~0x02;
 		}
@@ -385,12 +389,10 @@ uint8_t BoiBoy::Read(uint16_t add) {
 
 	// VRAM (0x8000 - 0x9FFF)
 	if (add >= 0x8000 && add < 0xA000) {
-		if (ppu.mode == 3) {
-			value = 0xFF;
-		}
-		else {
+		//if (ppu.mode == 3)
+		//	value = 0xFF;
+		//else
 			value = ppu.Read(add);
-		}
 	}
 
 	// Cart RAM (0xA000 - 0xBFFF)
@@ -404,9 +406,9 @@ uint8_t BoiBoy::Read(uint16_t add) {
 	} else
 
 	if (add >= 0xFE00 && add < 0xFE9F) {
-		if (ppu.mode == 3 || ppu.mode == 2)
-			value = 0xFF;
-		else
+		//if (ppu.mode == 3 || ppu.mode == 2)
+		//	value = 0xFF;
+		//else
 			value = ppu.Read(add);
 	} else
 

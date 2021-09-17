@@ -61,6 +61,8 @@ public:
 
 	bool frameComplete = false;
 
+	int totalCycles = 0;
+
 private:
 
 	BoiBoy* memory = nullptr;

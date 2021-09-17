@@ -1,4 +1,5 @@
 #include "CPUSharp.h"
+#include "Memory.h"
 
 #pragma region LOAD
 int CPUSharp::LDReg(Register& r1, uint8_t r2, bool isHigh) {
@@ -242,6 +243,16 @@ int CPUSharp::Reti() {
 	add |= Read(SP.value++) << 8;
 	PC.value = add;
 	IME = true;
+	if (Vblank) {
+		//std::cout << "finish vblank" << std::endl;
+		//std::cout << memory->ppu.mode << std::endl << std::endl;
+		Vblank = false;
+	}
+	if (stat) {
+		//std::cout << "finish stat" << std::endl;
+		//std::cout << memory->ppu.mode << std::endl << std::endl;
+		stat = false;
+	}
 	return 4;
 }
 

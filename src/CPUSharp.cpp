@@ -15,7 +15,7 @@ CPUSharp::CPUSharp() {
 	SP.value = 0xFFFE;
 	PC.value = 0x100;
 
-	//if (freopen_s(&LOG, "ZeldaLOG.txt", "a", stdout) == NULL) {
+	//if (freopen_s(&LOG, "ZeldaOutOfBoundsLOG.txt", "a", stdout) == NULL) {
 	//	return;
 	//}
 }

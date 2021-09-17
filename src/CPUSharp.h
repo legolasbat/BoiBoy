@@ -39,6 +39,9 @@ public:
 	bool debugOp = false;
 	bool debugMem = false;
 
+	bool Vblank = false;
+	bool stat = false;
+
 private:
 	void Debug();
 
@@ -71,8 +74,6 @@ private:
 	};
 
 	Register AF, BC, DE, HL, SP, PC;
-
-	int timerStage = 0;
 	
 #pragma region OP
 	/*

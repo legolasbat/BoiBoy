@@ -37,114 +37,119 @@ void PPU::Clock(int cycles) {
 		return;
 	}
 
-	if (mode == 1) {
-		scanlineCycles += cycles;
-		cnt -= cycles;
-	}
-	else {
-		cnt -= cycles * 2;
-	}
+	for (int i = 0; i < cycles; i += 1) {
+		totalCycles++;
+		if (mode == 1 && !memory->cpu.Vblank) {
+			scanlineCycles++;
+			cnt--;
+		}
+		else if(!memory->cpu.stat){
+			cnt--;
+		}
 
 
-	if (cnt < 0) {
-		switch (mode) {
-		case 0:
-			LY++;
-			CheckLY();
-			copy = false;
-			// H-Blank -> OAM Scan
-			if (LY < 144) {
+		if (cnt < 0) {
+			switch (mode) {
+			case 0:
+				LY++;
+				CheckLY();
+				copy = false;
+				// H-Blank -> OAM Scan
+				if (LY < 144) {
+					mode = 2;
+					spriteFetch = false;
+					STAT &= 0xFC;
+					STAT |= 0x02;
+					if ((STAT & 0x20) == 0x20)
+						memory->IFReg |= 0x02;
+					cnt += 20;
+					break;
+				}
+
+				// H-Blank -> V-Blank
+				mode = 1;
+				STAT &= 0xFC;
+				STAT |= 0x01;
+				memory->IFReg |= 1;
+				if ((STAT & 0x10) == 0x10)
+					memory->IFReg |= 0x02;
+				scanlineCycles = -cnt;
+				cnt += 1140;
+				break;
+
+				// V-Blank -> OAM Scan
+			case 1:
+				//std::cout << totalCycles << std::endl;
+				totalCycles = 0;
+				frameComplete = true;
 				mode = 2;
 				spriteFetch = false;
 				STAT &= 0xFC;
 				STAT |= 0x02;
 				if ((STAT & 0x20) == 0x20)
 					memory->IFReg |= 0x02;
-				cnt += 40;
+				scanlineCycles = 0;
+				LY = 0;
+				CheckLY();
+				cnt += 20;
+				break;
+
+				// OAM Scan -> Drawing
+			case 2:
+				mode = 3;
+				STAT &= 0xFC;
+				STAT |= 0x03;
+				cntOffset = 3 * spriteCont;
+				cnt += 43 + cntOffset;
+				drew = false;
+				break;
+
+				// Drawing -> H-Blank
+			case 3:
+				mode = 0;
+				STAT &= 0xFC;
+				if ((STAT & 0x08) == 0x08)
+					memory->IFReg |= 0x02;
+				cnt += 94 - (43 + cntOffset);
 				break;
 			}
+		}
 
-			// H-Blank -> V-Blank
-			mode = 1;
+		switch (mode) {
+		case 0:
+			STAT &= 0xFC;
+			if (!copy) {
+				CopyBuffer(LY);
+				copy = true;
+			}
+			break;
+		case 1:
 			STAT &= 0xFC;
 			STAT |= 0x01;
-			memory->IFReg |= 1;
-			if ((STAT & 0x10) == 0x10)
-				memory->IFReg |= 0x02;
-			scanlineCycles = -cnt;
-			cnt += 2280;
+			if (scanlineCycles >= 114) {
+				scanlineCycles -= 114;
+				LY++;
+			}
 			break;
-
-		// V-Blank -> OAM Scan
-		case 1:
-			frameComplete = true;
-			mode = 2;
-			spriteFetch = false;
+		case 2:
 			STAT &= 0xFC;
 			STAT |= 0x02;
-			if ((STAT & 0x20) == 0x20)
-				memory->IFReg |= 0x02;
-			scanlineCycles = 0;
-			LY = 0;
-			CheckLY();
-			cnt += 40;
+			if (!spriteFetch) {
+				GetSpIndex();
+				spriteFetch = true;
+			}
 			break;
-
-		// OAM Scan -> Drawing
-		case 2:
-			mode = 3;
+		case 3:
 			STAT &= 0xFC;
 			STAT |= 0x03;
-			cntOffset = 2 * 3 * spriteCont;
-			cnt += 86 + cntOffset;
-			drew = false;
-			break;
-
-		// Drawing -> H-Blank
-		case 3:
-			mode = 0;
-			STAT &= 0xFC;
-			if ((STAT & 0x08) == 0x08)
-				memory->IFReg |= 0x02;
-			cnt += 188 - (86 + cntOffset);
+			if (!drew) {
+				GetBGRow(LY);
+				GetWinRow(LY);
+				GetSpRow(LY);
+				drew = true;
+			}
 			break;
 		}
-	}
-
-	switch (mode) {
-	case 0:
-		STAT &= 0xFC;
-		if (!copy) {
-			CopyBuffer(LY);
-			copy = true;
-		}
-		break;
-	case 1:
-		STAT &= 0xFC;
-		STAT |= 0x01;
-		if (scanlineCycles >= 228) {
-			scanlineCycles -= 228;
-			LY++;
-		}
-		break;
-	case 2:
-		STAT &= 0xFC;
-		STAT |= 0x02;
-		if (!spriteFetch) {
-			GetSpIndex();
-			spriteFetch = true;
-		}
-		break;
-	case 3:
-		STAT &= 0xFC;
-		STAT |= 0x03;
-		if (!drew) {
-			GetBGRow(LY);
-			GetWinRow(LY);
-			GetSpRow(LY);
-			drew = true;
-		}
-		break;
 	}
 }
 
