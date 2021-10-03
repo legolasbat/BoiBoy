@@ -71,6 +71,8 @@ private:
 
 	int cntOffset = 0;
 
+	int multiple = 1;
+
 	// Grey
 	//uint32_t pallete[4] = { 0x000000FF, 0x808080FF, 0xD3D3D3FF, 0xFFFFFFFF };
 	// Inverse grey

@@ -15,7 +15,7 @@ CPUSharp::CPUSharp() {
 	SP.value = 0xFFFE;
 	PC.value = 0x100;
 
-	//if (freopen_s(&LOG, "ZeldaOutOfBoundsLOG.txt", "a", stdout) == NULL) {
+	//if (freopen_s(&LOG, "ZeldaErrorLOG.txt", "a", stdout) == NULL) {
 	//	return;
 	//}
 }
@@ -48,7 +48,6 @@ int CPUSharp::Clock() {
 	if (cycles == 0) {
 
 		if (halted && interrupt) {
-			PC.value++;
 			halted = false;
 			interrupt = false;
 		}

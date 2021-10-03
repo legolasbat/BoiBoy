@@ -129,14 +129,8 @@ int BoiBoy::Clock() {
 		}
 	}
 
-	if (speed) {
-		ppu.Clock(cpuCycles * 4);
-		spu.Clock(cpuCycles * 4);
-	}
-	else {
-		ppu.Clock(cpuCycles);
-		spu.Clock(cpuCycles * 4); // T Cycles
-	}
+	ppu.Clock(cpuCycles * 1);
+	spu.Clock(cpuCycles * 4); // T Cycles
 
 	// Timer
 	Timer();

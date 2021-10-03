@@ -36,7 +36,7 @@ public:
 
 	uint8_t TIMA = 0;
 
-	bool speed = false;
+	bool DMA = false;
 
 private:
 
@@ -51,7 +51,6 @@ private:
 	bool TMAChanged = false;
 	int TAC = 0;
 
-	bool DMA = false;
 	uint16_t dmaAdd = 0;
 	uint8_t dmaOffset = 0;
 

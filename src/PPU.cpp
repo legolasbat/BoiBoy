@@ -39,11 +39,11 @@ void PPU::Clock(int cycles) {
 
 	for (int i = 0; i < cycles; i += 1) {
 		totalCycles++;
-		if (mode == 1 && !memory->cpu.Vblank) {
+		if (mode == 1) {
 			scanlineCycles++;
 			cnt--;
 		}
-		else if(!memory->cpu.stat){
+		else {
 			cnt--;
 		}
 
@@ -62,7 +62,7 @@ void PPU::Clock(int cycles) {
 					STAT |= 0x02;
 					if ((STAT & 0x20) == 0x20)
 						memory->IFReg |= 0x02;
-					cnt += 20;
+					cnt += 20 * multiple;
 					break;
 				}
 
@@ -74,12 +74,11 @@ void PPU::Clock(int cycles) {
 				if ((STAT & 0x10) == 0x10)
 					memory->IFReg |= 0x02;
 				scanlineCycles = -cnt;
-				cnt += 1140;
+				cnt += 1140 * multiple;
 				break;
 
 				// V-Blank -> OAM Scan
 			case 1:
-				//std::cout << totalCycles << std::endl;
 				totalCycles = 0;
 				frameComplete = true;
 				mode = 2;
@@ -91,7 +90,7 @@ void PPU::Clock(int cycles) {
 				scanlineCycles = 0;
 				LY = 0;
 				CheckLY();
-				cnt += 20;
+				cnt += 20 * multiple;
 				break;
 
 				// OAM Scan -> Drawing
@@ -99,8 +98,8 @@ void PPU::Clock(int cycles) {
 				mode = 3;
 				STAT &= 0xFC;
 				STAT |= 0x03;
-				cntOffset = 3 * spriteCont;
-				cnt += 43 + cntOffset;
+				cntOffset = 10 * multiple * spriteCont;
+				cnt += 43 * multiple + cntOffset;
 				drew = false;
 				break;
 
@@ -110,7 +109,7 @@ void PPU::Clock(int cycles) {
 				STAT &= 0xFC;
 				if ((STAT & 0x08) == 0x08)
 					memory->IFReg |= 0x02;
-				cnt += 94 - (43 + cntOffset);
+				cnt += 94 * multiple - (43 * multiple + cntOffset);
 				break;
 			}
 		}
@@ -126,8 +125,8 @@ void PPU::Clock(int cycles) {
 		case 1:
 			STAT &= 0xFC;
 			STAT |= 0x01;
-			if (scanlineCycles >= 114) {
-				scanlineCycles -= 114;
+			if (scanlineCycles >= 114 * multiple) {
+				scanlineCycles -= 114 * multiple;
 				LY++;
 			}
 			break;
@@ -155,24 +154,28 @@ void PPU::Clock(int cycles) {
 
 void PPU::Write(uint16_t add, uint8_t n)
 {
-	if (add >= 0x8000 && add < 0x9800) {
-		tileData[add - 0x8000] = n;
-		return;
+	if (mode != 3) {
+		if (add >= 0x8000 && add < 0x9800) {
+			tileData[add - 0x8000] = n;
+			return;
+		}
+
+		if (add >= 0x9800 && add < 0x9C00) {
+			tileMap0[add - 0x9800] = n;
+			return;
+		}
+
+		if (add >= 0x9C00 && add < 0xA000) {
+			tileMap1[add - 0x9C00] = n;
+			return;
+		}
 	}
 
-	if (add >= 0x9800 && add < 0x9C00) {
-		tileMap0[add - 0x9800] = n;
-		return;
-	}
-
-	if (add >= 0x9C00 && add < 0xA000) {
-		tileMap1[add - 0x9C00] = n;
-		return;
-	}
-
-	if (add >= 0xFE00 && add < 0xFEA0) {
-		OAM[add - 0xFE00] = n;
-		return;
+	if ((mode != 2 && mode != 3) || memory->DMA) {
+		if (add >= 0xFE00 && add < 0xFEA0) {
+			OAM[add - 0xFE00] = n;
+			return;
+		}
 	}
 
 	if ((add >= 0xFF40 && add < 0xFF46) || (add > 0xFF46 && add <= 0xFF4B)) {
@@ -231,19 +234,13 @@ uint8_t PPU::Read(uint16_t add)
 	if (add >= 0x8000 && add < 0x9800) {
 		value = tileData[add - 0x8000];
 	}
-	else
-
-	if (add >= 0x9800 && add < 0x9C00) {
+	else if (add >= 0x9800 && add < 0x9C00) {
 		value = tileMap0[add - 0x9800];
 	}
-	else
-
-	if (add >= 0x9C00 && add < 0xA000) {
+	else if (add >= 0x9C00 && add < 0xA000) {
 		value = tileMap1[add - 0x9C00];
 	}
-	else
-
-	if (add >= 0xFE00 && add < 0xFEA0) {
+	else if (add >= 0xFE00 && add < 0xFEA0) {
 		value = OAM[add - 0xFE00];
 	}
 	else

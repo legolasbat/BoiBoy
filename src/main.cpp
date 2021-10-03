@@ -16,7 +16,8 @@ int main(int argc, char*argv[])
     screen.setTexture(pixels);
 
     begin:
-    Cartridge cart(argv[1]);
+    //Cartridge cart(argv[1]);
+    Cartridge cart("../BoiBoyCopia/Zelda.gb");
 
     BoiBoy boi(&cart);
 
@@ -126,9 +127,6 @@ int main(int argc, char*argv[])
                         nextFrame = true;
                         nextInst = true;
                     }
-                }
-                if (event.key.code == sf::Keyboard::Tab) {
-                    boi.speed = !boi.speed;
                 }
                 // Channels enables
                 if (event.key.code == sf::Keyboard::Num1) {
